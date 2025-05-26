@@ -1,0 +1,38 @@
+.container{
+    margin:25px;
+    padding:15px;
+
+    width:25%;
+    height:650px;
+}
+
+.section_category{
+    margin-top: 0px;
+    margin-left: 15px;
+    color:grey;
+}
+
+
+.menu_items{
+    padding-left: 20px;
+    list-style: none;
+    color:rgb(34, 1, 84);
+}
+.menu_list{
+    margin-bottom:25px;
+}
+.menu_icon{
+width:55px;
+height:10px;
+}
+.menu_name{
+    margin:10px;
+    font-size: 20px;
+}
+
+.section_settings{
+     padding-left: 20px;
+    list-style: none;
+    color:rgb(34, 1, 84);
+    padding-top:150px;
+}

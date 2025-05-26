@@ -1,0 +1,81 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  z-index: 1;
+  position: relative;
+}
+.container {
+  display: flex;
+  padding: 2px;
+  margin: 3px;
+  background-color: white;
+}
+.img {
+  width: 10%;
+  height: 50%;
+  margin: 8px;
+}
+.elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  margin-left: 15px;
+}
+/*search input box styling*/
+.search_elements {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px;
+  margin: 5px;
+}
+.search_icon {
+  color: rgb(34, 1, 84);
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.search {
+  width: 600px;
+  padding: 10px 12px;
+   border: none;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.bell_icon {
+  border-radius: 5px;
+  color: rgb(34, 1, 84);
+  margin-left: 15px;
+  width: 28px;
+  height: 28px;
+}
+
+/*search input box styling- ends here*/
+
+/*user icon and plus icon styling */
+.plus_icon {
+  background-color: rgb(34, 1, 84);
+  border-radius: 6px;
+  border: none;
+  color: white;
+  margin: 10px;
+  padding-top: 6px;
+  width: 45px;
+  height: 45px;
+}
+
+.user_icon {
+  background-color: rgb(34, 1, 84);
+  border-radius: 6px;
+  border: none;
+  color: white;
+  margin: 10px;
+   padding-top: 6px;
+  width: 45px;
+  height: 45px;
+}
+/*user icon and plus icon styling -ends here */
+
+/*media queries */
