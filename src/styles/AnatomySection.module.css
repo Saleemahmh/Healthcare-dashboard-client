@@ -1,0 +1,74 @@
+.magnifyingglass{
+    position:absolute;
+    width:30px;
+    height:30px;
+    color:grey
+}
+.heading {
+  color: rgb(34, 1, 84);
+}
+.container {
+  display: flex;
+  margin: 25px;
+  height: 80%;
+  position: relative;
+}
+.img_container {
+  width: 300px;
+  height: 400px;
+}
+.human_img {
+  height: 500px;
+  width: 300px;
+}
+.scan_img {
+  position: absolute;
+  left: 6.6em;
+  bottom: 3em;
+  height: 50px;
+  width: 50px;
+}
+.scan2_img {
+  position: absolute;
+  right: 6.7em;
+  top: 6em;
+  height: 50px;
+  width: 50px;
+}
+.indicators_heart {
+  background-color: rgba(46, 11, 99, 0.592);
+  color: cyan;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  padding-left: 15px;
+  padding-right: 15px;
+  right: -1.5em;
+  top: 7.5em;
+}
+.indicators_leg {
+  background-color: rgba(0, 255, 255, 0.563);
+  color: rgb(46, 11, 99);
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  position: absolute;
+   padding-left: 15px;
+  padding-right: 15px;
+  left:-1.2em;
+  bottom: 1.2em;
+}
+.leg_img {
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 15px;
+  height: 15px;
+}
+.heart_img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}

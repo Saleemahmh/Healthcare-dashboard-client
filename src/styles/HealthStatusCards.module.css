@@ -1,0 +1,60 @@
+.status_container{
+    margin:15px;
+    width:max-content;
+}
+
+.heading_section{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.time_period {
+  color: rgb(34, 1, 84);
+}
+.icon{
+    margin:5px;
+   
+}
+.status_cards{
+
+    color:  rgb(34, 1, 84);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.organ{
+    display: flex;
+    align-items: center;
+}
+.organ_name{
+    font-size: 20px;
+    font-weight:500;
+}
+.img{
+    width:40px;
+    height:40px;
+       padding: 4px;
+}
+.organ_time{
+    color:rgb(123, 115, 131);
+    margin:2px;
+}
+.statusbar_container{
+width:100%;
+height:10px;
+background-color: #e0e0e0;
+border-radius:7px;
+overflow:hidden;
+}
+.status_bar{
+    height:80%;
+    width:60%;
+    border-radius: 7px;
+
+}
+.detail_section{
+    display:flex;
+    justify-content: flex-end;
+}
+.details{
+     color: rgb(34, 1, 84);
+}

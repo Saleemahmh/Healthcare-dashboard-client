@@ -1,0 +1,28 @@
+.schedule_heading {
+  color: rgb(34, 1, 84);
+  font-weight: 600;
+}
+.appointmentlayout {
+  width: max-content;
+}
+.appointmentcard_container {
+  color: grey;
+}
+.appointmentname {
+  font-weight: 700;
+}
+.appointmenticon {
+  width: 20px;
+  height: 20px;
+  padding-left: 75px;
+}
+.cardcontainer {
+  display: flex;
+}
+.cards {
+  border-radius: 20px;
+  margin: 5px;
+  padding: 25px;
+  color: rgb(34, 1, 84);
+  background-color: #e6e6fa;
+}
