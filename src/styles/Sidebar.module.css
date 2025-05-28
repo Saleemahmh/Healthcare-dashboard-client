@@ -33,3 +33,54 @@
   color: rgb(34, 1, 84);
   padding-top: 150px;
 }
+
+
+
+@media (max-width: 991px) {
+  .container {
+    width: 40%;
+    margin: 20px;
+    padding: 12px;
+  }
+
+  .menu_name {
+    font-size: 18px;
+  }
+
+  .section_settings {
+    padding-top: 100px;
+  }
+}
+
+/* Mobile Devices (≤ 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width:auto;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  .menu_name {
+    font-size: 26px;
+    margin: 8px;
+  }
+
+  .menu_icon {
+    width: 70px;
+    height: 15px;
+  }
+
+  .section_settings {
+    padding-top: 5px;
+  }
+
+  .section_category {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  .menu_items,
+  .section_settings {
+    padding-left: 50px;
+  }
+}

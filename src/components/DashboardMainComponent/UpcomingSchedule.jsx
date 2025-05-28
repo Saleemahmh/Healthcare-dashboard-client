@@ -8,7 +8,7 @@ const UpcomingSchedule = () => {
       <SimpleAppointmentCard></SimpleAppointmentCard>
       <div>
         <div>
-          <h2 className={styles.schedule_heading}>The UpcomingSchedule</h2>
+          <h2 className={styles.schedule_heading}>The Upcoming Schedule</h2>
         </div>
       </div>
       <div className={styles.appointmentlayout}>

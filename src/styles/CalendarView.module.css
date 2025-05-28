@@ -25,3 +25,14 @@
 .calendarslots {
   margin: 10px;
 }
+@media  (max-width: 767px) {
+.calendar_heading {
+font-size:25px;
+}
+.calendardate {
+  font-size: 37px;
+}
+.calendardata {
+  font-size:20px;
+}
+}

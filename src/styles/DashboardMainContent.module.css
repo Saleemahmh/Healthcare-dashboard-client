@@ -28,3 +28,46 @@
 .activity_section {
   grid-area: 3 / 1 / 4 / 3;
 } 
+
+
+
+@media (max-width: 991px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 16px;
+  }
+
+  .anatomy_section {
+    grid-area: auto;
+  }
+
+  .healthstatus_section {
+    grid-area: auto;
+  }
+
+  .calendarview_section {
+    grid-area: auto;
+  }
+
+  .upcoming_section {
+    grid-area: auto;
+  }
+
+  .activity_section {
+    grid-area: auto;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 14px;
+  }
+}

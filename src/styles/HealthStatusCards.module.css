@@ -58,3 +58,99 @@ overflow:hidden;
 .details{
      color: rgb(34, 1, 84);
 }
+
+
+
+/* Tablets */
+@media (max-width: 991px) {
+  .status_container {
+    margin: 10px;
+    width: 100%;
+  }
+
+  .heading_section {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .status_cards {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .organ_name {
+    font-size: 18px;
+  }
+
+  .img {
+    width: 35px;
+    height: 35px;
+    padding: 3px;
+  }
+
+  .statusbar_container {
+    height: 8px;
+  }
+
+  .detail_section {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .details {
+    font-size: 16px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+  .status_container {
+    margin: 8px;
+    width: 95%;
+    font-size: 30px;
+  }
+
+  .heading_section {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .status_cards {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .organ {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .organ_name {
+   font-size: 30px;
+  }
+
+  .img {
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+  }
+
+  .statusbar_container {
+    height: 6px;
+  }
+
+  .detail_section {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+  }
+
+  .details {
+    font-size: 30px;
+  }
+
+  .icon {
+    margin: 5px;
+  }
+}
