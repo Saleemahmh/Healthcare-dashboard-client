@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../styles/CalendarView.module.css";
 import { IoArrowBackCircle } from "react-icons/io5";
-import { IoArrowBackCircleSharp } from "react-icons/io5";
+import { IoArrowForwardCircle } from "react-icons/io5";
 import { CalendarData } from "../../data/calendardata";
 const CalendarView = () => {
   return (
@@ -11,7 +11,7 @@ const CalendarView = () => {
           <h2>October 2021</h2>
           <div className={styles.arrowbuttons}>
             <IoArrowBackCircle />
-            <IoArrowBackCircleSharp />
+            <IoArrowForwardCircle />
           </div>
         </div>
       </div>
