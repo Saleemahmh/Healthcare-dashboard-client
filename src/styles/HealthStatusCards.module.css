@@ -46,8 +46,8 @@ border-radius:7px;
 overflow:hidden;
 }
 .status_bar{
-    height:80%;
-    width:60%;
+    height:100%;
+    width:0%;
     border-radius: 7px;
 
 }

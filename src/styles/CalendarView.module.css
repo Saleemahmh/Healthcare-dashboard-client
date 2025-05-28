@@ -1,0 +1,27 @@
+.calendar_heading {
+  color: rgb(46, 11, 99);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrowbuttons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 6px;
+}
+.calendardata {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(46, 11, 99);
+}
+.calendardays{
+    margin:10px;
+}
+.calendardate {
+  font-size: 27px;
+  font-weight: 600;
+   margin:10px;
+}
+.calendarslots {
+  margin: 10px;
+}

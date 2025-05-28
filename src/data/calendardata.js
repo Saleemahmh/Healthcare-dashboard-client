@@ -8,13 +8,13 @@ export const CalendarData = [
   {
     days: "Tues",
     date: "26",
-    slots: ["08.00", "9.00", "10.00"],
+    slots: ["08.00", "09.00", "10.00"],
     selected: "09.00",
   },
   {
     days: "Wed",
     date: "27",
-    slots: ["12.00", "13.00"],
+    slots: ["12.00", "---", "13.00"],
     selected: null,
   },
   {
@@ -26,7 +26,7 @@ export const CalendarData = [
   {
     days: "Fri",
     date: "29",
-    slots: ["14.00", "16.00"],
+    slots: ["14.00", "---", "16.00"],
     selected: null,
   },
   {
